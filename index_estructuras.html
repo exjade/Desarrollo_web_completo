@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+ <head>
+     <!--META CHARSET - CODIFICACIÓN DE LENGUAJE-->
+     <meta charset="utf-8">
+      <!--META NAME DESCRIPTION - POSICIONAMIENTO WEB-->
+     <meta name="description" content="Explorando y Aprendiendo HTML">
+      <!--TITÚLO DE SITIO-->
+     <title>Mi página web</title>
+      <!--HOJA DE ESTILOS DE CASCADA-->
+     <link rel="stylesheet" href="css/style.css">
+ </head>
+ <body>
+     <!--CONTENEDOR-->
+    
+     <!--Se agrega una clase o un id para diferenciar un DIV de otros DIV'S-->
+     <!--semántica se refiere al significado de los signos lingüísticos-->
+
+  <div class="contenedor">
+    <header> 
+      <!--LOGOTIPO-->
+      <div class="logo">
+          <img src="img/logo.png" alt="logo empresa">
+      </div>
+      <!--MENÚ DE NAVEGACIÓN-->
+        <nav class="navegacion">
+            menu aquí
+        </nav>
+      </header>
+
+      <!--MAIN - Muy útilizada para el contenido principal de la página-->
+      <!--Portafolío, Servicios. No pondrás en el MAIN las últimas dos noticias-->
+      <main class="contenido-principal">
+        <!--SECTION es muy utilizado para los grupos de contenido -->
+        <section>
+            <!--Identificas un Section porque el primer hijo es un encabezado-->
+            <h2>Nuestro cursos</h2>
+            <!--Elemento Agrupado-->
+
+            <!--También se identifica por el primer hijo que por lo normal es un encabezado del h1 al h6-->
+            <div>
+                <h3>HTML5</h3>
+                <img src="img/html5.png" alt="html5" height="200px">
+            </div>
+            <div>
+                <h3>CSS3</h3>
+                <img src="img/css3.png" alt="css3" height="200px">
+                </div>
+            <div>
+                <h3>Javascript</h3>
+                <img src="img/js.jpg" alt="Javascript" height="200px">
+                    </div>
+        </section>
+      </main>
+
+  </div>
+ </body>
+</html>
