@@ -1,0 +1,7 @@
+Existen 4 tipos de Targets
+
+De los 4 únicamente 2 son comúnes pero uno de ellos es por default así que sólo debemos aprender uno.
+
+1- target="_blank"
+
+2- target="_self" <!-- Al ser por default no hace ningún cambio-->
