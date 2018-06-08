@@ -1,0 +1,18 @@
+ELEMENTOS PRINCIPALES:
+
+Definition Of Roles:
+
+Lo especial es que viene el nombre de un rol y su descripción.
+
+Por lo general al header se le agrega el rol=banner
+
+<header role="banner">
+
+¿A qué se refiere con crear contenido para el sitio y no para la página?
+
+El sitio es nuestra página web completa. Y lo que está en el header es el "Logotipo y la Navegación".
+
+Son elementos que encuentras en todos los sitios que tengan una página web. 
+
+ <nav class="navegacion" role="navigation">
+
