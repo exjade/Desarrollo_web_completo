@@ -10,27 +10,28 @@
       <!--HOJA DE ESTILOS DE CASCADA-->
      <link rel="stylesheet" href="css/style.css">
  </head>
- <body>
+ <body role="document">
      <!--CONTENEDOR-->
     
      <!--Se agrega una clase o un id para diferenciar un DIV de otros DIV'S-->
      <!--semántica se refiere al significado de los signos lingüísticos-->
 
   <div class="contenedor">
-    <header> 
+      <!--ROL BANNER-->
+    <header role="banner"> 
       <!--LOGOTIPO-->
       <div class="logo">
           <img src="img/logo.png" alt="logo empresa">
       </div>
       <!--MENÚ DE NAVEGACIÓN-->
-        <nav class="navegacion">
+        <nav class="navegacion" role="navigation">
             menu aquí
         </nav>
       </header>
 
       <!--MAIN - Muy útilizada para el contenido principal de la página-->
       <!--Portafolío, Servicios. No pondrás en el MAIN las últimas dos noticias-->
-      <main class="contenido-principal">
+      <main class="contenido-principal" role="main">
         <!--SECTION es muy utilizado para los grupos de contenido -->
         <section>
             <!--Identificas un Section porque el primer hijo es un encabezado-->
@@ -56,7 +57,7 @@
             <h2>Últimas noiticias</h2>
             <!--ARTICLE-->
             <!--Un article es el contenido "que habla por si mismo". La entrada de un Blog, definiendo un contenido específico-->
-            <article>
+            <article role="article"> 
                 <h3>Aprender a programar en el siglo 21 es muy importante</h3>
                 <p>
                     Where does it come from?
@@ -67,7 +68,7 @@ The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for t
             </article> <!--FINAL ARCTICLE-->
             <!--ARTICLE-->
             <!--Entradas de un foro, lo demás lo puedes poner dentro de un DIV-->
-            <article>
+            <article role="article">
                 <h3>Aprender a programar en el siglo 21 es muy importante</h3>
                 <p>
                     Where does it come from?
@@ -81,7 +82,7 @@ The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for t
 
       <!--ASIDE - BARRA LATERAL -->
       <!--Elemento lateral al contenido principal-->
-      <aside>
+      <aside role="complementary"> 
           <h2>Próximos Cursos</h2>
           <div>
               <h3>PHP</h3>
@@ -96,16 +97,17 @@ The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for t
 
   <!--FOOTER - PIE de página-->
   <!--Parte inferior de un sitioweb-->
-    <footer>
+    <footer role="contentinfo">
         <div class="nosotros">
             <h3>Sobre nuestra escuela</h3>
             <p>Pellentesque vulputate sollicitudin nunc. Donec accumsan risus non ornare males</p>
         </div>
         <div class="menu">
-            Menu Aquí!
+            <nav class="navegacion" role="navigation">
+                    Menu Aquí!
+            </nav>
         </div>
         <p>Cursos de diseño web &mdash; Todos los derechos reservados &copy; </p>
     </footer>
-
- </body>
+</body>
 </html>
