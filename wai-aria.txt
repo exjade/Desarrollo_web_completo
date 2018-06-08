@@ -16,3 +16,13 @@ Son elementos que encuentras en todos los sitios que tengan una página web.
 
  <nav class="navegacion" role="navigation">
 
+El aparato leerá los roles y cuando visite MAIN leerá el contenido dentro del MAIN
+
+ <main class="contenido-principal" role="main">
+
+<aside role="complementary"> 
+
+<footer role="contentinfo">
+
+
+Enlaces: https://www.w3.org/TR/html-aria/#document-conformance-requeriments-for-use-of-aria-attributes-in-html
