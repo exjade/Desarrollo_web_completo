@@ -162,7 +162,9 @@ The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for t
 <!--Algo importante cuando se trabaja con THEAD o TFOOT debes poner td-->
                     <tfoot>
                         <tr>
-                            <td>
+                            <!--No cambia mucho pero la tabla se vuelve pequeña - colspan-->
+                            <!--Une 2 columnas en 1-->
+                            <td colspan="2" align="center"> 
                             No te los puedes perder!
                             </td>
                         </tr>
@@ -170,9 +172,15 @@ The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for t
 <!--La tabla detecta las etiquetas y lo acomoda correctamente-->
                     <tbody>
                         <tr>
-                            <td>PHP</td>
+                            <!--Une 2 celdas, las que le pases-->
+                            <td 
+                            rowspan="2">PHP</td>
                             <td>$99</td>
                         </tr>
+                        <tr>
+                            <td>$99 (Sabatino)</td>
+                        </tr>
+                            
                         <tr>
                             <td>MySql</td>
                             <td>$99</td>
