@@ -35,3 +35,27 @@
 .titulo {
     font-size: 60px;
 }
+/*SELECTORES CON 2 CLASES*/
+.azul.tituloCurso{
+    color:blue;
+}
+/*No cambiará nada por la fuerza de la etiqueta*/
+.azul {
+    color: red;
+}
+.titulo {
+    color:red;
+}
+/*Selectores con elementos HTML*/
+p {
+    color:brown;
+}
+h2 {
+    color:orange;
+}
+h3{
+    color:green;
+}
+img {
+    width: 300px;
+}
