@@ -79,8 +79,17 @@ Pero no valida si es un correo valido ósea existente.
             <!--Input URL-->
             <label for="">Tu sitio web:</label>
             <input type="url" name="url" placeholder="http://www.dominio.com">
+            <br><br>
 
-            
+            <!--RANGE MINIMO/MÁXIMO-->
+<!--Da un puntaje-->
+            <label for="">Cuánto sabes de HTML?</label>
+            <input type="range" name="puntaje" min="0" max="10"> 
+            <br><br>
+            <!--Input Type:Number - Limitar cantidad en stock-->
+<!--Limitar # con esté campo-->
+<label for="">Personas que vienen contigo?</label>
+<input type="number" name="cantidad" min="0" max="5"> 
          </fieldset>
 
          <!--Los campos con los que hemos trabajado, select y datalist, te dan una serie de opciones pero sólo puedes elegir una a la vez-->
@@ -150,6 +159,21 @@ Pero no valida si es un correo valido ósea existente.
              <label for="">Las primeras 10 personas reciben una camisa gratis, elige el color:</label>
 <!--Muy útil para las tiendas - Imprime un color-->
              <input type="color" name="color">
+         </fieldset>
+
+         <br>
+         <!--Input typePassword-->
+
+         <fieldset>
+             <legend>Usuario y Password</legend>
+             <!--USUARIO-->
+             <label>Usuario:</label>
+             <input type="text" name="usuario" placeholder="Usuario"><br>
+
+             <!--PASSWORD-->
+<!--Esconde tu contraseña-->
+             <label>Contraseña:</label>
+             <input type="password" name="password" placeholder="Password">
          </fieldset>
 
 
