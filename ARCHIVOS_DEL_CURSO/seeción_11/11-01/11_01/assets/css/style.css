@@ -67,3 +67,14 @@ img#logo {
 h2#titulo {
     color:orange;
 }
+/*SELECCIONANDO ELEMENTO HTML Y CLASES*/
+section.seccion {
+    background:gray;
+}
+div.noticia {
+    background:white;
+}
+/*Añadiendo una clase al selector me entero rapidamente dónde está este selector*/
+img.logo {
+    
+}
