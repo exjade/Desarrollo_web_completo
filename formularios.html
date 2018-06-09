@@ -64,11 +64,28 @@ El nombre es el mismo pero el "VALOR" debe ser distinto. -->
                         <option value="matutino">Matutino</option>
                         <!--Agrego en minúsculas el VALOR porque esto lo lee la computadora-->
 
-                        <!--SELECTED - Deja por Default-->
+                        <!--SELECT - Deja por Default-->
                         <option value="vespertino" selected>Vespertino</option>
                         <!--Todas las opciones que pueda las puedo agregar aquí!-->
                         <option value="nocturno">Nocturno</option>
                     </select>
+                    <br><br>
+
+
+                    <!-- DATALIST -->
+                    <label for="">Qué curso te gustaría que agregaramos</label>
+                    <input list="propuesta" name="encuesta">
+                    <!--El ID será el mismo que agregamos al LIST-->
+                    <datalist id="propuesta">
+<!--Dentro podemos pasar un OPTION tal y como al select--> 
+<!--Esté tiene sólo un OPTION con el VALOR y es un nombre visible -->
+                        <option value="jQuery"></option>
+                        <option value="Aplicaciones Web"></option>
+                        <option value="AngularJS"></option>
+                        <option value="Bootstrap"></option>
+
+                    </datalist>
+
          </fieldset>
 
         <br><br>
