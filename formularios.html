@@ -49,6 +49,7 @@ El nombre es el mismo pero el "VALOR" debe ser distinto. -->
                 <label for="sexo">Sexo:</label><br>
                 <input type="radio" name="sexo" id="sexo"  value="hombre">Hombre <br>
                 <input type="radio" name="sexo" id="sexo"  value="mujer">Mujer <br>
+                <!--AUTOFOCUS = Seleccionado pero sin llenar el valor-->
                 <!--CHECKED = Preselección-->
                 <input type="radio" name="sexo" id="sexo" value="otro" checked>Otro <br><br>
 
@@ -62,7 +63,24 @@ El nombre es el mismo pero el "VALOR" debe ser distinto. -->
                 <label for="">Fecha de Cumpleaños</label>
                 <input type="date" name="fecha">
             
-            <!--AUTOFOCUS = Seleccionado pero sin llenar el valor-->
+                <br><br>
+
+                <!-- Type EMAIL-->
+<!-- Es parecido a type:text, sin embargo, HTML5 ya tiene validación de formulario-->
+<!--Sigue la regla de tener un nombre, un arroba, un dominio y un punto com. 
+    nombre@dominio.com
+
+Pero no valida si es un correo valido ósea existente.
+-->
+                <label for="">Correo Electrónico</label>
+                <input type="email" placeholder="Correo@dominio.com">
+
+            <br><br>
+            <!--Input URL-->
+            <label for="">Tu sitio web:</label>
+            <input type="url" name="url" placeholder="http://www.dominio.com">
+
+            
          </fieldset>
 
          <!--Los campos con los que hemos trabajado, select y datalist, te dan una serie de opciones pero sólo puedes elegir una a la vez-->
