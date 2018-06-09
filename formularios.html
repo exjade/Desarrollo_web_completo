@@ -45,9 +45,7 @@
               <!--Los radios son útiles donde tengas varias opciones pero únicamente puedeS elegir una de ellas-->
             <!--Lo que cambia type="radio"-->
             <!-- 
-El nombre es el mismo pero el "VALOR" debe ser distinto. 
-
-            -->
+El nombre es el mismo pero el "VALOR" debe ser distinto. -->
                 <label for="sexo">Sexo:</label><br>
                 <input type="radio" name="sexo" id="sexo"  value="hombre">Hombre <br>
                 <input type="radio" name="sexo" id="sexo"  value="mujer">Mujer <br>
@@ -55,8 +53,24 @@ El nombre es el mismo pero el "VALOR" debe ser distinto.
                 <input type="radio" name="sexo" id="sexo" value="otro" checked>Otro <br>
             
             <!--AUTOFOCUS = Seleccionado pero sin llenar el valor-->
-        
-        </fieldset>
+         </fieldset>
+
+         <fieldset>
+                     <legend>Información sobre tu curso</legend>
+                     <!--Select es muy útil en el caso de sólo poder elegir una opción sobre una lista-->
+                     <label for="turno">Turno:</label>
+                    <select id="turno" name="turno" class="turno">
+                        <!--Se le "pasa" un option dentro de cada uno-->
+                        <option value="matutino">Matutino</option>
+                        <!--Agrego en minúsculas el VALOR porque esto lo lee la computadora-->
+
+                        <!--SELECTED - Deja por Default-->
+                        <option value="vespertino" selected>Vespertino</option>
+                        <!--Todas las opciones que pueda las puedo agregar aquí!-->
+                        <option value="nocturno">Nocturno</option>
+                    </select>
+         </fieldset>
+
         <br><br>
                 <!-- SUBMIT - ENVIAR -->
                 <!-- Type="submit" Esté tipo de campos es para enviar-->
@@ -66,3 +80,4 @@ El nombre es el mismo pero el "VALOR" debe ser distinto.
     
 </body>
 </html>
+
