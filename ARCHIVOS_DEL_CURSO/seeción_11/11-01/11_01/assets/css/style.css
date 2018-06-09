@@ -76,5 +76,25 @@ div.noticia {
 }
 /*Añadiendo una clase al selector me entero rapidamente dónde está este selector*/
 img.logo {
-    
+
+}
+/*SELECTOR UNIVERSAL
+*{
+    color:black!important;
+    font-size:20px!important;
+}
+*/
+/*Sirve para seleccionar todos los hijos del padre y darles un estilo sin necesidad de crear
+#listado-cursos h3 {
+    font-size:30px;
+}
+#listado-cursos p {
+    font-size:30px;
+}
+*/
+#listado-cursos * {
+    font-size:30px;
+}
+.noticia * {
+    font-size: 20px;
 }
