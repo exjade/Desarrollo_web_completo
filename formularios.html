@@ -55,6 +55,8 @@ El nombre es el mismo pero el "VALOR" debe ser distinto. -->
             <!--AUTOFOCUS = Seleccionado pero sin llenar el valor-->
          </fieldset>
 
+         <!--Los campos con los que hemos trabajado, select y datalist, te dan una serie de opciones pero sólo puedes elegir una a la vez-->
+
          <fieldset>
                      <legend>Información sobre tu curso</legend>
                      <!--Select es muy útil en el caso de sólo poder elegir una opción sobre una lista-->
@@ -83,15 +85,37 @@ El nombre es el mismo pero el "VALOR" debe ser distinto. -->
                         <option value="Aplicaciones Web"></option>
                         <option value="AngularJS"></option>
                         <option value="Bootstrap"></option>
-
                     </datalist>
-
-         </fieldset>
-
         <br><br>
-                <!-- SUBMIT - ENVIAR -->
-                <!-- Type="submit" Esté tipo de campos es para enviar-->
-                <input type="submit" value="Enviar">
+         <!--CHECKBOX-->
+        <label for="">Elige tus cursos:</label><br>
+       <!-- El usuario puede elegir multiples opciones -->
+        <input type="checkbox" id="" value="PHP">PHP <br>
+        <input type="checkbox" id="" value="HTML5">HTML5 <br>
+        <input type="checkbox" id="" value="css">CSS <br>
+        <input type="checkbox" id="" value="mysql">MySQL<br>
+        <input type="checkbox" id="" value="javascript">JavaScript <br>
+        <input type="checkbox" id="" value="jquery">jQuert <br>
+
+
+
+         </fieldset> <br><br>
+
+         <!--BUTTON-->
+<!--
+■Tiene apertura y cierre a diferencia del input.
+■Un atributo que tiene BUTTON es que lo puedes deshabilitar.
+*
+■ Muy útiles cuando queremos agregarles JavaScript
+
+-->
+        <button type="reset" disabled>
+            Borrar
+         </button>
+
+        <!-- SUBMIT - ENVIAR -->
+<!-- Type="submit" Esté tipo de campos es para enviar-->
+        <input type="submit" value="Enviar">
        
     </form>
     
