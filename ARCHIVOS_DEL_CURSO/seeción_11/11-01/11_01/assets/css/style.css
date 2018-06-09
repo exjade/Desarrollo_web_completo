@@ -1,6 +1,13 @@
+/* SELECTOR-->h2 { Llave de apertura 
+   Propiedad--> color:green;<-- Valor [Declaración]
+} Llave de cierre
+*/
+/* La propiedad te la brinda CSS, el valor lo declaras tú*/
+
 h2 {
-    color:green;
+    color:blue;
 }
-h1 {
-    color:red;
+
+p {
+    font-size:20px;
 }
