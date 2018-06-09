@@ -10,36 +10,56 @@
 
     <h2>Creando los formularios</h2>
 
-    <form class="formulario" action="">
-        <!--La forma de crear un formulario es con un LABEL(Información al usuario sobre de que trata el campo) y un INPUT(Varia dependiendo del nombre del input)-->
+    <form class="formulario" action="" >
+        <!--La forma de crear un formulario es con un LABEL(Información al usuario sobre de qué trata el campo) y un INPUT(Varia dependiendo del nombre del input o del atributo)-->
+
+        <!-- FIELDSET -->
+<!--Conforme crezca nuestro formulario deberemos agruparlo-->
 <!--Agrupar contenido que mas o menos esta relacionado - FIELDSET -->
         <fieldset>
-            <!--Legend imprime un letreto-->
+            <!-- LEGEND -->
+            <!--Legend imprime un "letreto"-->
             <legend>Tus datos</legend>
-                <label for="nombre">Nombre:</label>
+
+            <!-- LABEL -->
+            <!--Label tiene cierre-->
+            <!--for=nombre espera un id en el input con el mismo nombre-->
+                <label 
+                for="nombre">Nombre:</label>
+            <!-- INPUT -->
+                <!--Input no tiene cierre-->
+                <!--
+        PlaceHolder: qué valor esperamos
+        Autocomplete: Autocompletado, on/off
+         -->
                 <input type="text" name="nombre" id="nombre" placeholder="Tu nombre" autocomplete="on">
-        
-                <br>
+                <br/>
+
+
                 <label for="apellido">Apellido:</label>
+                <!--Input TYPE="TEXT"-->
                 <input type="text" name="apellido" id="apellido" placeholder="Tu apellido" autocomplete="on">
                 <br>
+  
+            <!-- RADIOS -->
+              <!--Los radios son útiles donde tengas varias opciones pero únicamente puedeS elegir una de ellas-->
+            <!--Lo que cambia type="radio"-->
+            <!-- 
+El nombre es el mismo pero el "VALOR" debe ser distinto. 
 
-            <!--Los radios son útiles donde tengas varias opciones pero únicamente puede elegir una de ellas-->
-
-            <!--Lo que cambia es el "value"-->
+            -->
                 <label for="sexo">Sexo:</label><br>
                 <input type="radio" name="sexo" id="sexo"  value="hombre">Hombre <br>
                 <input type="radio" name="sexo" id="sexo"  value="mujer">Mujer <br>
+                <!--CHECKED = Preselección-->
                 <input type="radio" name="sexo" id="sexo" value="otro" checked>Otro <br>
-            <!--CHEKED = Autoseleccionado-->
+            
             <!--AUTOFOCUS = Seleccionado pero sin llenar el valor-->
-        
-        
-        
         
         </fieldset>
         <br><br>
-                <!--Esté tipo de campos es para enviar-->
+                <!-- SUBMIT - ENVIAR -->
+                <!-- Type="submit" Esté tipo de campos es para enviar-->
                 <input type="submit" value="Enviar">
        
     </form>
