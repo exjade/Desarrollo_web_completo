@@ -98,3 +98,28 @@ img.logo {
 .noticia * {
     font-size: 20px;
 }
+/*SELECTOR DE GRUPOS*/
+/*
+■Para agrupar varios elementos y darles un atribtuto en común debes escribir una línea separandolos por coma (,)
+■El selector de grupo (,) es bastante útil cuando quieres agregar un estilo a varios elementos y no perder tiempo
+*/
+h2, h3, p, a {
+    text-transform: uppercase;
+}
+h2, h3 {
+    text-align: center;
+}
+/*SELECTOR DESCENDIENTE*/
+/*Es muy común para escribir código que no interfiera con otras secciones de tu sitio web*/
+nav#navegacion {
+    background: orange;
+}
+nav#navegacion ul {
+   list-style: none;
+}
+nav#navegacion ul li {
+    display:inline;
+ }
+ nav#navegacion ul li a {
+     color:white;
+ }
