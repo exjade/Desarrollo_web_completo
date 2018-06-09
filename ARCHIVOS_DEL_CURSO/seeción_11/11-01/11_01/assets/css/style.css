@@ -8,4 +8,22 @@
 2.CLASS
 */
 
+/*SELECTORES DE ID'S
+// Se útiliza únicamente 1 vez por página.
+*/
+#titulo {
+    color:red;
+}
+#logo {
+    /*margin-top: 200px;*/
+}
 
+/*SELECTORES DE CLASES
+//Puedes utilizarlas más de 1 vez
+*/
+.rojo {
+    color:red;
+}
+.logo { 
+    margin-top: 200px;
+}
