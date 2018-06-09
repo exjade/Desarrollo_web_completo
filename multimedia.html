@@ -11,7 +11,13 @@
     <!-- VIDEO -->
 
 <!--CONTROLS - Imprime un reproductor-->
-    <video  controls>
+<!--PRELOAD 3 opciones, auto, metadata y none-->
+<!--
+none: Precargar el vídeo, conforme se descargue la página el vídeo no se reproduce. 
+metadata:Descarga la pantalla del video y la duración pero el vídeo sólo cuando clickeas play.
+Auto: el navegador se encarga de manejar los datos del usuario.
+-->
+    <video  controls preload="auto">  
 <!--Dentro de la etiqueta VIDEO podemos agregar la SOURCE - FUENTE-->
 <!-- Type:video/ogg-->
 
@@ -30,7 +36,7 @@
     <!-- AUDIO -->
 
  <!--CONTROLS - Imprime un reproductor-->
-    <audio controls>
+    <audio controls preload="none">
         <!--M4A debe ser la primera opción-->
         <source src="audio/audio.m4a" type="audio/mp4">
         <source src="audio/audio.oga" type="audio/ogg">
