@@ -4,10 +4,14 @@
 */
 /* La propiedad te la brinda CSS, el valor lo declaras tú*/
 
-h2 {
-    color:blue;
+.contenido-principal {
+    color:white;
+    text-transform:uppercase;
+    background-color:red;
+    padding:20px;
 }
 
-p {
-    font-size:20px;
-}
+/*Selectores básicos
+1.ID
+2.CLASS
+*/
