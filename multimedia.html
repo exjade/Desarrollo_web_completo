@@ -11,16 +11,30 @@
     <!-- VIDEO -->
 
 <!--CONTROLS - Imprime un reproductor-->
-    <video src="video/codigo.ogv" controls>
+    <video  controls>
+<!--Dentro de la etiqueta VIDEO podemos agregar la SOURCE - FUENTE-->
+<!-- Type:video/ogg-->
+
+    <!--MP4-->
+<!--Primero en cargar, ya que le MP4  es el formato que reproduce bien el IPad y Iphone. Ellos buscan todos los videos y si la primera opción no es mp4, ignora todos los demás-->
+    <source src="video/codigo.mp4" type="video/mp4">
+    <!--WEBM-->
+    <source src="video/codigo.webm" type="video/webm">
+    <source src="video/codigo.ogv" type="video/ogg">
+    <!--OGV-->
     <p>Tu navegador no soporta video</p>
     </video>
 
 
     <H2>Audio para HTML5</H2>
     <!-- AUDIO -->
-    
+
  <!--CONTROLS - Imprime un reproductor-->
-    <audio src="audio/audio.oga" controls></audio>
+    <audio controls>
+        <!--M4A debe ser la primera opción-->
+        <source src="audio/audio.m4a" type="audio/mp4">
+        <source src="audio/audio.oga" type="audio/ogg">
+    </audio>
     
 </body>
 </html>
