@@ -27,3 +27,11 @@
 .logo { 
     margin-top: 200px;
 }
+/*SELECTORES CON CLASE Y ID*/
+#titulo.titulo {
+    font-size:60px;
+}
+/*No toma el cambio porque arriba tiene más fuerza*/
+.titulo {
+    font-size: 60px;
+}
