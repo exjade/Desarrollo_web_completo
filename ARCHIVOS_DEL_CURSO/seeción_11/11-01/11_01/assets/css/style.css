@@ -142,6 +142,7 @@ nav#navegacion ul li {
      color:white;
  } 
  /*SELECTORES PARA ENLACES*/
+ /*El asterisco (*) quiere decir seleccioname todo lo que contenga "facebook.com"*/
  a[href*="facebook.com"] {
      background-color:yellow;
  }
@@ -153,3 +154,15 @@ a[href*="documento.pdf"] {
     background-color:purple;
 }
 */
+
+
+/*SELECCIONA POR ATRIBUTOS*/
+
+/*ID*/
+img[id="logo"]{
+   margin-top: 0px; 
+}
+/*CLASS*/
+[class="seccion"] {
+    background-color: blue!important;
+}
