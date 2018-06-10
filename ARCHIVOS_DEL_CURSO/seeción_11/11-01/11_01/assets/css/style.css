@@ -166,3 +166,27 @@ img[id="logo"]{
 [class="seccion"] {
     background-color: blue!important;
 }
+/*SELECTORES CON PSEUDO CLASES*/
+/*Las pseudo clases se identifican por los : puntos*/
+div.menu nav ul li a:focus, 
+div.menu nav ul li a:visited, 
+div.menu nav ul li a:active {
+    color:black;
+}
+/*No son exclusivos de enlaces pero los encontraremos más en enlaces*/
+div.menu nav ul li a:hover {
+    color: orange;
+    background-color:orange;
+}
+/*El primer hijo del elemento "Li" no tendrá la línea*/
+div.menu nav ul li:first-child a{
+    text-decoration: none!important;
+}
+/*El último hijo del elemento "Li" no tendrá la línea*/
+div.menu nav ul li:last-child a{
+    text-decoration: none!important;
+}
+h2:hover{
+    color: orange!important;
+}
+
