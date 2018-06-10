@@ -136,5 +136,8 @@ nav#navegacion ul li {
      color:green;
  }
  /*SELECTOR DE ELEMENTOS ADYACENTES*/
-
- 
+/*Al escribir + seleccionará al elemento que tengas en la lista*/
+ ul#listado-cursos + p {
+     background-color:red!important;
+     color:white;
+ } 
