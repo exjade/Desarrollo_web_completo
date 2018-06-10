@@ -189,4 +189,28 @@ div.menu nav ul li:last-child a{
 h2:hover{
     color: orange!important;
 }
+/*Selector  de PSEUDO CLASES y NTH-CHILD*/
 
+/*nth-child espera un número y dependiendo del número aplicará la declaración en los elementos*/
+div.menu nav ul li:nth-child(1){
+    background-color:red;
+}
+div.menu nav ul li:nth-child(2){
+    background-color:yellow;
+}
+div.menu nav ul li:nth-child(3){
+    background-color:blue;
+}
+div.menu nav ul li:nth-child(4){
+    background-color:gray;
+}
+
+/*NTH-CHILD aparte de números también acpta palabras*/
+table tbody tr:nth-child(odd) {
+    background-color:orange;
+}
+/*ODD = Números nones 1,3,5*/
+/*EVEN = pares*/
+table tbody tr:nth-child(even){
+    background-color: purple;
+}
