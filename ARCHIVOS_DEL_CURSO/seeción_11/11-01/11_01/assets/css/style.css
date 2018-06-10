@@ -123,3 +123,18 @@ nav#navegacion ul li {
  nav#navegacion ul li a {
      color:white;
  }
+ /*Selector con hijos*/
+ /* El signo de mayor es el selector con hijos*/
+ section#cursos > ul {
+     border: 1px solid black;
+ }
+ ul#listado-cursos > li {
+     color:Red;
+ }
+ /*Se usan cuando quieres afectar sólo el primer nivel sin profundizar*/
+ ul#listado-cursos li ul > li {
+     color:green;
+ }
+ /*SELECTOR DE ELEMENTOS ADYACENTES*/
+
+ 
