@@ -31,11 +31,13 @@ Te ayudará a elegir el tamaño exacto para tus diseños*/
 h3 {
     font-family:'Times New Roman', serif;
     font-size:22px;
+    font-variant:small-caps;/*Primera mayúscula más grande que las demás*/
 }
 p {
     font-family: Geneva, Helvetica, sans-serif;
     font-size:18px;
-    text-transform:capitalize;/*Primera letra de cada palabra en Mayúscula*/
+   text-transform:capitalize;
+   /* Primera letra de cada palabra en Mayúscula*/
 }
 /*Si deseas eliminar un estilo en este caso em = enfásis en cursiva puedes utilizar la propiedad font-style con el valor normal*/
 #listado-cursos li em {
@@ -47,8 +49,16 @@ p {
 a {
     font-size:14px;
     text-transform:uppercase;
+    text-decoration:none;/*Se encarga de remover la decoración del text*/
 }
 /*La etiqueta SPAN 'ETIQUETA QUE NO HACE NADA', sirve para dar un estilo a un texto en especifico, colores, etc*/
+section#introduccion p {
+    font-variant: small-caps;
+}
 section#introduccion p span {
     font-style:italic;
+    text-decoration:underline;/*Es la misma línea que le hemos quitado a el enlace*/
+}
+p.oferta span {
+    text-decoration:line-through;/* Línea Media*/
 }
