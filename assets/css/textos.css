@@ -41,7 +41,8 @@ p {
     font-size:18px;
    text-transform:capitalize;
    /* Primera letra de cada palabra en Mayúscula*/
-   font-weight: bold;/*Fuente negrita*/
+   line-height: 29px; /*Interlineado- Facilidad de lectura al usuario*/
+  /* font-weight: bold;Fuente negrita*/
 }
 /*Si deseas eliminar un estilo en este caso em = enfásis en cursiva puedes utilizar la propiedad font-style con el valor normal*/
 #listado-cursos li em {
