@@ -1,0 +1,17 @@
+/*TODOS LOS ESTILOS VAN RELACIONADOS CON TEXTOS*/
+
+/*Font Family*/
+
+body {
+    font-family: Arial, Helvetica, serif;
+}
+/* SAFE FONTS*/
+h2{
+    font-family:Verdana, Geneva, sans-serif
+}
+h3 {
+    font-family: 'Times New Roman', serif;
+}
+p {
+    font-family: Geneva, Helvetica, sans-serif
+}
