@@ -22,6 +22,7 @@ h2{
     font-size:30px;
     /*Italic vuelve la letra en cursiva*/
     font-style:italic;
+    text-transform: uppercase;/*Mayúsculas*/
 }
 
 
@@ -34,13 +35,18 @@ h3 {
 p {
     font-family: Geneva, Helvetica, sans-serif;
     font-size:18px;
+    text-transform:capitalize;/*Primera letra de cada palabra en Mayúscula*/
 }
 /*Si deseas eliminar un estilo en este caso em = enfásis en cursiva puedes utilizar la propiedad font-style con el valor normal*/
 #listado-cursos li em {
     font-style:normal;
 }
+#listado-cursos li {
+    text-transform: lowercase;/*Minúsculas*/
+}
 a {
     font-size:14px;
+    text-transform:uppercase;
 }
 /*La etiqueta SPAN 'ETIQUETA QUE NO HACE NADA', sirve para dar un estilo a un texto en especifico, colores, etc*/
 section#introduccion p span {
