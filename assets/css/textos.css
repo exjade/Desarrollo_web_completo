@@ -18,12 +18,21 @@ body {
 }
 /* SAFE FONTS*/
 h2{
-    font-family: 'acknowledgementmedium',serif;
+    font-family: Verdana, Geneva, serif;
+    font-size:30px;
 }
+
+
+/* Font-size: rem, em , px - Responsive web design
+Te ayudará a elegir el tamaño exacto para tus diseños*/
 h3 {
-    font-family:'acknowledgementmedium','Times New Roman', serif;
+    font-family:'Times New Roman', serif;
+    font-size:22px;
 }
 p {
     font-family: Geneva, Helvetica, sans-serif;
+    font-size:18px;
 }
-
+a {
+    font-size:14px;
+}
