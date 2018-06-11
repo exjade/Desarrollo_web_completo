@@ -20,6 +20,8 @@ body {
 h2{
     font-family: Verdana, Geneva, serif;
     font-size:30px;
+    /*Italic vuelve la letra en cursiva*/
+    font-style:italic;
 }
 
 
@@ -33,6 +35,14 @@ p {
     font-family: Geneva, Helvetica, sans-serif;
     font-size:18px;
 }
+/*Si deseas eliminar un estilo en este caso em = enfásis en cursiva puedes utilizar la propiedad font-style con el valor normal*/
+#listado-cursos li em {
+    font-style:normal;
+}
 a {
     font-size:14px;
+}
+/*La etiqueta SPAN 'ETIQUETA QUE NO HACE NADA', sirve para dar un estilo a un texto en especifico, colores, etc*/
+section#introduccion p span {
+    font-style:italic;
 }
