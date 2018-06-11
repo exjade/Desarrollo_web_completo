@@ -30,6 +30,8 @@ h2{
 
     /*ATAJO 
     Font: italic small-caps normal 30px/30px Verdana;*/
+    letter-spacing: 2px;/*SEPARADOR - Nos separará 10 pixeles*/
+    text-indent:300px;/*INDENTACIÓN - Mover de izquierda a derecha*/
 }
 
 
@@ -62,6 +64,9 @@ a {
     font-size:14px;
     text-transform:uppercase;
     text-decoration:none;/*Se encarga de remover la decoración del text*/
+}
+div.noticia p{
+    text-indent: 100px;/*Nos da un "tipo de sangría"*/
 }
 /*La etiqueta SPAN 'ETIQUETA QUE NO HACE NADA', sirve para dar un estilo a un texto en especifico, colores, etc*/
 section#introduccion p {
