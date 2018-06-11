@@ -25,6 +25,11 @@ h2{
     font-style:italic;
     text-transform: uppercase;/*Mayúsculas*/
     font-weight: normal;/*Fuente normal*/
+    text-align: center;/*CENTRAR*/
+
+
+    /*ATAJO 
+    Font: italic small-caps normal 30px/30px Verdana;*/
 }
 
 
@@ -35,6 +40,7 @@ h3 {
     font-size:22px;
     font-variant:small-caps;/*Primera mayúscula más grande que las demás*/
     /*font-weight: lighter;fuenta más delgada - depende de la fuente*/
+   
 }
 p {
     font-family: Verdana, Helvetica, sans-serif;
@@ -43,6 +49,7 @@ p {
    /* Primera letra de cada palabra en Mayúscula*/
    line-height: 29px; /*Interlineado- Facilidad de lectura al usuario*/
   /* font-weight: bold;Fuente negrita*/
+  text-align: justify;
 }
 /*Si deseas eliminar un estilo en este caso em = enfásis en cursiva puedes utilizar la propiedad font-style con el valor normal*/
 #listado-cursos li em {
@@ -67,3 +74,6 @@ section#introduccion p span {
 p.oferta span {
     text-decoration:line-through;/* Línea Media*/
 }
+
+/*
+//Existen 4 formas de alinear text: Izquierda, Derecha, Centro, Justificado*/
