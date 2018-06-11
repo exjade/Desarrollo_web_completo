@@ -17,27 +17,31 @@ body {
     font-family: Arial, Helvetica, serif;
 }
 /* SAFE FONTS*/
+/*Por lo normal cuando agregas un h2-h6 vienen con font-weight:normal y los párrafos y enlaces con font-weight:normal*/
 h2{
     font-family: Verdana, Geneva, serif;
     font-size:30px;
     /*Italic vuelve la letra en cursiva*/
     font-style:italic;
     text-transform: uppercase;/*Mayúsculas*/
+    font-weight: normal;/*Fuente normal*/
 }
 
 
 /* Font-size: rem, em , px - Responsive web design
 Te ayudará a elegir el tamaño exacto para tus diseños*/
 h3 {
-    font-family:'Times New Roman', serif;
+    font-family:Verdana,'Times New Roman', serif;
     font-size:22px;
     font-variant:small-caps;/*Primera mayúscula más grande que las demás*/
+    /*font-weight: lighter;fuenta más delgada - depende de la fuente*/
 }
 p {
-    font-family: Geneva, Helvetica, sans-serif;
+    font-family: Verdana, Helvetica, sans-serif;
     font-size:18px;
    text-transform:capitalize;
    /* Primera letra de cada palabra en Mayúscula*/
+   font-weight: bold;/*Fuente negrita*/
 }
 /*Si deseas eliminar un estilo en este caso em = enfásis en cursiva puedes utilizar la propiedad font-style con el valor normal*/
 #listado-cursos li em {
