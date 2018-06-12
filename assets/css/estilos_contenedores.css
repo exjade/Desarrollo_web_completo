@@ -9,11 +9,18 @@ div.contenedor {
     background:white;
     /*ANCHO Y ALTO*/
     width:1000px; 
+    margin-top:20px;/*Margen de arriba*/
+    margin-left:auto;
+    margin-right: auto;/*Auto se asegura que haya la misma distancia de la izquierda a la derecha -utilizado para centrar contenedores. */
 }
 header {
     background:orange;;
     /*height: 100vh;Toma el 100% de la altura del navegador - viewport height*/
     /*width: 100vw;viewport width*/
+    margin-bottom: 30px;
+}
+h2 {
+    margin-bottom: 40px;
 }
 nav {
     background: purple;;
@@ -25,10 +32,12 @@ img.logocss {
 table {
     background:cyan;
     width: 50%;/*Se puede utilizar también los porcentajes*/
+    margin-left: 25%;/*También los margenes pueden ser en porcentajes*/
 }
 
 footer{
     background: orange;
+    margin-top: 30px;
 }
 footer nav {
     background:transparent;/*Si quieres remover un color únicamente pon transparent y aplica el color del padre*/
