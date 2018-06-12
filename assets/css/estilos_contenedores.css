@@ -1,0 +1,25 @@
+/*Un contenedor no es más que un elemento: Nav, Header, Div, Ul */
+
+/*BACKGROUND*/
+
+body {
+    background:gray;
+}
+div.contenedor {
+    background:white;
+}
+header {
+    background:orange;
+}
+nav {
+    background: purple;
+}
+table {
+    background:cyan;
+}
+footer{
+    background: orange;
+}
+footer nav {
+    background:transparent;/*Si quieres remover un color únicamente pon transparent y aplica el color del padre*/
+}
