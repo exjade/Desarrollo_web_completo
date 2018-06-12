@@ -1,0 +1,40 @@
+/** BACKGROUNDS**/
+
+body {
+  background: gray;
+}
+.contenedor {
+  background: white;
+}
+header {
+  background: orange
+}
+nav {
+  background: purple;
+}
+table {
+  background: cyan;
+}
+footer {
+  background: orange;
+}
+footer nav {
+  background: transparent;
+}
+/** Anchos y Altos **/
+.contenedor {
+  width: 1000px;
+}
+nav {
+  height:80px;
+}
+table {
+  width:300px;
+}
+img.logocss3 {
+  width: 90px;
+}
+
+table {
+  width: 40%;
+}
