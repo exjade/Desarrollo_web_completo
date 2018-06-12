@@ -2,6 +2,10 @@
 
 /*BACKGROUND*/
 
+/*
+//Margin es hacía afuera.
+//Padding hacía adentro*/
+
 body {
     background:gray;
 }
@@ -18,6 +22,8 @@ header {
     /*height: 100vh;Toma el 100% de la altura del navegador - viewport height*/
     /*width: 100vw;viewport width*/
     margin-bottom: 30px;
+    padding-bottom: 20px;
+    padding-top: 20px;
 }
 h2 {
     margin-bottom: 40px;
@@ -25,6 +31,11 @@ h2 {
 nav {
     background: purple;;
     height: 80px;
+    margin-top: 40px;
+    padding-top: 40px;
+}
+nav ul {
+    padding:0;/*Se remueve el padding se algún elemento*/
 }
 img.logocss {
  width: 100px;   
@@ -34,10 +45,15 @@ table {
     width: 50%;/*Se puede utilizar también los porcentajes*/
     margin-left: 25%;/*También los margenes pueden ser en porcentajes*/
 }
+tbody tr td {
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
 
 footer{
     background: orange;
     margin-top: 30px;
+    padding-top: 40px;
 }
 footer nav {
     background:transparent;/*Si quieres remover un color únicamente pon transparent y aplica el color del padre*/
