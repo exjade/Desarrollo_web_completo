@@ -7,16 +7,26 @@ body {
 }
 div.contenedor {
     background:white;
+    /*ANCHO Y ALTO*/
+    width:1000px; 
 }
 header {
-    background:orange;
+    background:orange;;
+    /*height: 100vh;Toma el 100% de la altura del navegador - viewport height*/
+    /*width: 100vw;viewport width*/
 }
 nav {
-    background: purple;
+    background: purple;;
+    height: 80px;
+}
+img.logocss {
+ width: 100px;   
 }
 table {
     background:cyan;
+    width: 50%;/*Se puede utilizar también los porcentajes*/
 }
+
 footer{
     background: orange;
 }
